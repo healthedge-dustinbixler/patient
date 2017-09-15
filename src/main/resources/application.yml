@@ -1,0 +1,31 @@
+hello.world.message: "This is the default"
+
+---
+
+spring:
+  profiles: yml
+
+hello.world.message: "Hi from the yml config"
+
+---
+
+spring:
+  profiles: local
+
+hello.world.message: "Hi from the local config"
+
+---
+
+spring:
+  profiles: dev
+
+hello.world.message: "Hi from the dev config"
+
+---
+
+spring:
+  profiles: prod
+
+hello.world.message: "Hi from the prod config"
+
+
